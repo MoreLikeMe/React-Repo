@@ -11,16 +11,26 @@ function App() {
   }
 
   const addToList = () => {
-    const tempList = [...toDoList];
-    tempList.push({key: Math.random(),"itemValue" :item});
-    setToDoList(tempList);
-    console.log(toDoList);
+    let isItemPresent = false;
+    toDoList.forEach(element => {
+      if(element.itemValue === item){
+        isItemPresent = true;
+      }
+    });
+
+    if(!isItemPresent){
+      const tempList = [...toDoList];
+      tempList.push({key: Math.random(),itemValue :item});
+      setToDoList(tempList);
+    } else {
+      alert('Item Already Present...');
+    }
+
   }
 
   const deleteFromList = (currItem) => {
     let tempList = [...toDoList];
     tempList = tempList.filter((cItem) => cItem.key!==currItem.key);
-    console.log(tempList);
     setToDoList(tempList);
   }
 
@@ -42,7 +52,7 @@ function App() {
         <ul>
           {toDoList.map( curItem => (
             <li>{curItem.itemValue}
-             <img src="Red_Cross.png" alt="" onClick={() => deleteFromList({curItem})}/>
+             <img src="Red_Cross.png" alt="" onClick={() => deleteFromList(curItem)}/>
             </li>
           ))}
         </ul>
