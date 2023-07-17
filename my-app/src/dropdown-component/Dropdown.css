@@ -1,0 +1,10 @@
+.dropdown{
+    font-size: 15px;
+    color: grey;
+    height: 30px;
+    width: auto; 
+    border: 1px solid #cccccc;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    float: right;
+}

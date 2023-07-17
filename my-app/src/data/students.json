@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Amal Kumar",
+        "id": "1",
+        "tasks":[
+            {
+                "taskName": "Math",
+                "taskDetails": "Task for Math"
+            },
+            {
+                "taskName": "Physics",
+                "taskDetails": "Task for Physics"
+            },
+            {
+                "taskName": "Chemistry",
+                "taskDetails": "Tasks for Checmistry"
+            }
+        ]
+    },
+    {
+        "name": "Kamal Kumar",
+        "id": "2",
+        "tasks":[
+            {
+                "taskName": "Physics",
+                "taskDetails": "Task for Physics"
+            },
+            {
+                "taskName": "Chemistry",
+                "taskDetails": "Tasks for Checmistry"
+            }
+        ]
+    },
+    {
+        "name": "Homayet Singh",
+        "id": "3",
+        "tasks":[
+            {
+                "taskName": "Biology",
+                "taskDetails": "Task for Biology"
+            },
+            {
+                "taskName": "Politics",
+                "taskDetails": "Task for Politics"
+            },
+            {
+                "taskName": "Physics",
+                "taskDetails": "Task for Physics"
+            },
+            {
+                "taskName": "Chemistry",
+                "taskDetails": "Tasks for Checmistry"
+            }
+        ]
+    },
+    {
+        "name": "Supriyo Saha",
+        "id": "4",
+        "tasks":[
+            {
+                "taskName": "Politics",
+                "taskDetails": "Task for Politics"
+            },
+            {
+                "taskName": "Physics",
+                "taskDetails": "Task for Physics"
+            }
+        ]
+    },
+    {
+        "name": "Sudipto Das",
+        "id": "5",
+        "tasks":[
+            {
+                "taskName": "Computer",
+                "taskDetails": "Task for Computer"
+            },
+            {
+                "taskName": "Physics",
+                "taskDetails": "Task for Physics"
+            }
+        ]
+    },
+    {
+        "name": "Harmanpreet Kaur",
+        "id": "6",
+        "tasks":[
+            {
+                "taskName": "Environment",
+                "taskDetails": "Task for Environment"
+            },
+            {
+                "taskName": "Pol Science",
+                "taskDetails": "Task for Politucal Science"
+            },
+            {
+                "taskName": "Accountacny",
+                "taskDetails": "Task for Accountancy"
+            }
+        ]
+    }
+]

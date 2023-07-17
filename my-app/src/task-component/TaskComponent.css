@@ -1,0 +1,59 @@
+.task{
+    background-color: #e6d8fc;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.task-header{
+    background-color: #c0baf9;
+    box-shadow: 0px 10px 10px #c0baf9;
+    text-align: center;
+}
+
+.task-header-text{
+    padding-top: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px #0b0448;
+}
+
+.task-body{
+    padding: 10px;
+}
+
+.task-list{
+    padding: auto;
+    list-style-position: inside;
+    list-style-image: url(/public/increasing.png);
+}
+
+.task-single{
+    font-size: 16px;
+    background-color: #636262f5;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    border-radius: 20px 5px 20px 5px;
+}
+
+.task-single:hover {
+    box-shadow: 1px 1px 10px #636262f5;
+    background-color: #e5e4e4e3;
+    color: black;
+}
+
+.deleteButton {
+    border-radius: 4px;
+    margin-right: 10px;
+    float: right;
+    background-color: #e5e4e4e3;
+
+}
+
+.task-single:hover .deleteButton {
+    background-color: #fab6b6f5;
+}
+
+.deleteIcon{
+    height: 12px;
+    width: fit-content;
+}
+
