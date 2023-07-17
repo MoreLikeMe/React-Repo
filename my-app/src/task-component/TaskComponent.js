@@ -16,7 +16,7 @@ export default function TaskComponent(props){
                         <li className="task-single">
                             {task.taskName}: 
                             <span className="task-single-span">{task.taskDetails}</span>
-                            <button type="button" className="deleteButton" onClick={() => props.deleteTask(task.taskName, task.taskDetails)}><img src="trash.png" alt="Delete" className="deleteIcon"/></button>
+                            <button type="button" className="deleteButton" onClick={() => props.deleteTask(task.taskName, task.taskDetails)}><img src="trash_blue.png" alt="Delete" className="deleteIcon"/></button>
                         </li>
                     ))}
                 </ul>

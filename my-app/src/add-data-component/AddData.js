@@ -16,7 +16,7 @@ export default function AddData(props){
         <>
             <input hidden={props.isExtraFieldHide} type="text" className="textbox" placeholder="Type Here... " value={dataName} onChange={(e) => setDataName(e.target.value)}/>
             <input type="text" className="textbox" placeholder="Type Here... " value={data} onChange={(e) => setData(e.target.value)}/>
-            <button type="button" className="submitbutton" onClick={handleClick}><span><img src="plus.png" className="plusIcon"/>{props.buttonName}</span></button>
+            <button type="button" className="submitbutton" onClick={handleClick}><span><img src="plus_blue.png" className="plusIcon" alt="Add"/> {props.buttonName}</span></button>
         </>
     );
 }
