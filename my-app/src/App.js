@@ -3,7 +3,6 @@ import Dropdown from './dropdown-component/Dropdown';
 import AddData from './add-data-component/AddData';
 import TaskComponent from './task-component/TaskComponent';
 import { addTaskToStudent, insertNewStudent, loadData, deleteTaskofStudent } from './AppService';
-import "./App.css";
 
 function App() {
 

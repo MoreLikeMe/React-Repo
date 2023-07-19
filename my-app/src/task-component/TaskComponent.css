@@ -41,11 +41,10 @@
 }
 
 .deleteButton {
-    border-radius: 4px;
+    border: none;
     margin-right: 10px;
     float: right;
-    background-color: #e5e4e4e3;
-
+    background-color: #636262f5;
 }
 
 .task-single:hover .deleteButton {
@@ -53,7 +52,7 @@
 }
 
 .deleteIcon{
-    height: 12px;
+    height: 18px;
     width: fit-content;
 }
 
